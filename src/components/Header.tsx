@@ -9,7 +9,7 @@ interface HeaderProps {
     showCancel?: boolean;
 }
 
-export default function Header({ title, showCancel = true }: HeaderProps) {
+export default function Header({ title, showCancel }: HeaderProps) {
     const navigation = useNavigation();
 
     function handleGoBackToAppHomePage() {

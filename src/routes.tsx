@@ -5,7 +5,7 @@ import OrphanagesMap from './pages/OrphanagesMap';
 import OrphanageDetails from './pages/OrphanageDetails';
 import SelectMapPosition from './pages/CreateOrphanage/SelectMapPosition';
 import OrphanageData from './pages/CreateOrphanage/OrphanageData';
-import Header from './components/header';
+import Header from './components/Header';
 
 const { Navigator, Screen } = createStackNavigator();
 
